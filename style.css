@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Roboto","Noto Sans","Helvetica",sans-serif;
+    font-size: 14px;
+    background-color: #3498DB;
+    height: 100%;
+}
+.calc{
+    width: 400px;
+    height: 500px;
+    background: black;
+    margin-left: 300px;
+    overflow: hidden;
+    box-shadow: 4px 4px rgba(0,0,0,0.2);
+    margin: 70px auto 0;
+
+}
+
+#screen{
+    width: 85%;
+    margin-left: 36px;
+    height: 40px;
+    margin-top: 30px;
+    pointer-events: none;
+}
+.btn{
+    width: 45px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 40px;
+    background: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: grey;
+}
